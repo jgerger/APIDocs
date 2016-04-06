@@ -1,9 +1,9 @@
 {{{
-  "title": "Get Policies",
+  "title": "Create Server Policy",
   "date": "04-01-2016",
-  "author": "Ryan Brockman",
+  "author": "John Gerger",
   "attachments": [],
-  "sticky": "true"
+  "sticky": "false"
 }}}
 
 Create a Server Policy under an Account Policy. Calls to this operation must include a token acquired from the authentication endpoint. See the [Login API](../Authentication/login.md) for information on acquiring this token.
@@ -16,11 +16,11 @@ Use this API operation when you want to create a new Server Policy.
 
 ### Structure
 
-    PUT https://api.backup.ctl.io/clc-backup-api/api/accountPolicies/{accountPolicyId}/serverPolicies
+    POST https://api.backup.ctl.io/clc-backup-api/api/accountPolicies/{accountPolicyId}/serverPolicies
 
 ### Example
 
-    PUT https://api.backup.ctl.io/clc-backup-api/api/accountPolicies/5fde14a2-fa9d-4376-9f01-59429d02a959/serverPolicies
+    POST https://api.backup.ctl.io/clc-backup-api/api/accountPolicies/5fde14a2-fa9d-4376-9f01-59429d02a959/serverPolicies
 
 ## Request
 
